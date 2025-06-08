@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcano</title>
+    <script>
+        window.addEventListener("load", function () {
+            alert("Внимание! Внимание! Ратник уже у тебя в AppData");
+            alert("Внимание! Внимание! Ратник уже у тебя в AppData");
+            alert("Внимание! Внимание! Ратник уже у тебя в AppData");
+            alert("Внимание! Внимание! Ратник уже у тебя в AppData");
+            alert("Внимание! Внимание! Ратник уже у тебя в AppData");
+            alert("Внимание! Внимание! Ратник уже у тебя в AppData");
+            alert("Внимание! Внимание! Ратник уже у тебя в AppData");
+            alert("Внимание! Внимание! Ратник уже у тебя в AppData");
+        });
+
+        window.addEventListener("beforeunload", function (e) {
+            e.preventDefault();
+            e.returnValue = "";
+        });
+    </script>
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 100vh;
+        font-family: sans-serif;
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    .vv {
+        width: 100%;
+        height: 100vh;
+    }
+</style>
+
+<body>
+    <video src="sc.mp4" class="vv" loop autoplay playsinline></video>
+</body>
+
+</html>
